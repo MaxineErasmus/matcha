@@ -1,0 +1,173 @@
+/*Default Overrides*/
+
+a {
+    color: black;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+body {
+    background-color: #941a37;
+}
+
+h1 {
+    font-family: Broadway, "Times New Roman", Times, serif;
+    color: white;
+}
+
+h2 {
+    margin: 0;
+    margin-top: 0.25em;
+    padding: 0;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: small;
+    font-style: italic;
+}
+
+hr {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+input[type=checkbox] {
+    height: 2em;
+    width: 2em;
+}
+
+input[type=radio] {
+    height: 2em;
+    width: 2em;
+}
+
+/*ID*/
+
+#search_interests{
+    height: 3em;
+    border-radius: 2em;
+    font-style: italic;
+}
+
+#search_submit, #filter_btn{
+    height: 3em;
+}
+
+#search_btn > img, #filter_btn > img {
+    height: 1.5em;
+}
+
+#chat-window {
+    background-color: white;
+    padding: 2em 1em 2em 1em;
+}
+
+/*Classes*/
+
+.icon {
+    width: 3em;
+    height: 3em;
+    margin-top: 0.5em;
+}
+
+.carousel-inner img {
+    margin: auto;
+}
+
+.profile_accordion_btn {
+    width: 100%;
+}
+
+.profile_accordion_content {
+    background-color: white;
+    padding: 1em;
+}
+
+.img_lg {
+    width: 100%;
+    background-color: darkslategrey;
+}
+
+.img_md {
+    height: 18em;
+    width: 15em;
+    background-color: darkslategrey;
+}
+.img_sm {
+    height: 8em;
+    width: 6em;
+    background-color: darkslategrey;
+}
+
+.blue{
+    background-color: #122355;
+    border-color: #122355;
+}
+
+.light-blue{
+    background-color: lightsteelblue;
+    color: white;
+}
+
+.grey {
+    background-color: darkslategrey;
+    border-color: dimgrey;
+    border-width: 0.125em;
+}
+
+.maroon{
+    background-color: #941a37;
+    border-color: #941a37;
+    color: white;
+}
+
+.maroon-text{
+    color: #941a37;
+}
+
+.profile-stat-block{
+    border: solid #941a37 0.15em;
+}
+
+.stat-block > a:hover{
+    color: white;
+}
+
+.stat-block:hover{
+    background: linear-gradient(to right, white, #941a37, white);
+}
+
+.filter_menu{
+    background-color: lightgrey;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+/*Bootstrap Overrides*/
+.page-header {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.panel{
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0.25em;
+    padding-bottom: 0;
+    border-radius: 0;
+}
+
+.well {
+    margin-bottom: 0;
+}
+
+.center-block {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
